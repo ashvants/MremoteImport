@@ -5,4 +5,5 @@ This function uses the exiting mremotetemplate file, list of hosts file and crea
 
 This imports all hosts to the folder specified inside the "input/hosts.csv" file and inherits the authentication parameters from the parent folder.
 
-
+# USAGE
+import-csv "input/hosts.csv" | mremote -MremoteTemplateFile "\input\mremotetemplate\meremotetemplate.csv" -MremoteImportFile "\output\meremoteimport.csv"
