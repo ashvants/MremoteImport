@@ -13,7 +13,7 @@
     Date Created         : 01/06/2021
 
 # USAGE
-import-csv "Hosts list csv file" | mremoteimport -MremoteTemplateFile "Mremote csv template file path" -MremoteImportFile "Mremoteimport csv file path"
+import - csv "Hosts list csv file" | mremoteimport -MremoteTemplateFile "Mremote csv template file path" -MremoteImportFile "Mremoteimport csv file path"
 #>
 
 function mremoteimport {
